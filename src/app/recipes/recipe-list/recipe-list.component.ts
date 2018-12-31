@@ -8,8 +8,8 @@ import { Recipe } from '../recipe.model';
 export class RecipeListComponent implements OnInit {
 
   recipes: Recipe[] = [
-    new Recipe('Gelato Chocolato', 'Gelato Buonissimo Romano', 'https://cdn.pixabay.com/photo/2016/10/31/18/14/ice-1786311__480.jpg'),
-    new Recipe('Gelato Vanilla', 'Gelato Buonissimo Napolitano', 'https://cdn.pixabay.com/photo/2018/08/16/22/59/ice-3611698__480.jpg')
+    new Recipe('Gelato Chocolato', 'Gelato Romano', 'https://images.unsplash.com/photo-1447195047884-0f014b0d9288?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60'),
+    new Recipe('Gelato Vanilla', 'Gelato Napolitano', 'https://images.unsplash.com/photo-1495747895702-efcc225f9c22?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60')
   ];
 
   constructor() { }
